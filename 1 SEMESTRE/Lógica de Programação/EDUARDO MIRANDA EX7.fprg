@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EDUARDO MIRANDA EX1"/>
+        <attribute name="authors" value="dsadm"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 10:40:14 "/>
+        <attribute name="created" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjA2OjQ5OjM3ICI7MjYyNg=="/>
+        <attribute name="edited" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjEwOjQwOjE0ICI7ODsyNzIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;INSIRA O VALOR A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;INSIRA O VALOR B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;INSIRA O VALOR C&quot;" newline="True"/>
+            <input variable="C"/>
+            <if expression="A&gt;=B">
+                <then>
+                    <if expression="B&gt;=C">
+                        <then>
+                            <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;A &amp;B &amp;C" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="C&gt;=A">
+                                <then>
+                                    <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;C &amp;A &amp;B" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;A &amp;C &amp;B" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="B&gt;=C">
+                        <then>
+                            <if expression="A&gt;=C">
+                                <then>
+                                    <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;B &amp;A &amp;C" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;B &amp;C &amp;A" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;OS VALORES EM ORDEM CRESCENTE S&#195;O:&quot;&amp;C &amp;B &amp;A" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

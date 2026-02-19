@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EDUARDO MIRANDA EX1"/>
+        <attribute name="authors" value="dsadm"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 10:45:15 "/>
+        <attribute name="created" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjA2OjQ5OjM3ICI7MjYyNg=="/>
+        <attribute name="edited" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjEwOjQ1OjE1ICI7OTsyNzI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Real" array="False" size=""/>
+            <output expression="&quot;INSIRA O VALOR &quot;" newline="True"/>
+            <input variable="N"/>
+            <if expression="N&gt;=0">
+                <then>
+                    <output expression="N" newline="True"/>
+                </then>
+                <else>
+                    <output expression="N*(-1)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

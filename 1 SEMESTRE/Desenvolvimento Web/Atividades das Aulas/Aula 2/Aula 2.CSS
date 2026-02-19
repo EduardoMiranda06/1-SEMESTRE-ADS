@@ -1,0 +1,36 @@
+.box {
+    float: right;
+    margin: 30px;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#div1 { width: 250px; height: 200px; background-color: red; 
+float: left;
+}
+#div2 { width: 250px; height: 300px; background-color: blue; 
+float: right;}
+#div3 { width: 30px; height: 70px; background-color: green;
+float: left;
+}
+#div4 { width: 40px; height: 60px; background-color: yellow;
+float: right;
+ }
+#div5 { width: 50px; height: 50px; background-color: purple; 
+float: left;
+}
+#div6 { width: 60px; height: 40px; background-color: orange; 
+float: right;
+}
+#div7 { width: 70px; height: 30px; background-color: pink; 
+float: left;
+}
+#div8 { width: 80px; height: 20px; background-color: brown; 
+float: right;
+}
+#div9 { width: 90px; height: 600px; background-color: chocolate; 
+float: left;
+}
+

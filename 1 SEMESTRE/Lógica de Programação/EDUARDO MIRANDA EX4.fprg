@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EDUARDO MIRANDA EX1"/>
+        <attribute name="authors" value="dsadm"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 09:29:19 "/>
+        <attribute name="created" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjA2OjQ5OjM3ICI7MjYyNg=="/>
+        <attribute name="edited" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjA5OjI5OjE5ICI7NTsyNzM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Real" array="False" size=""/>
+            <output expression="&quot;INSIRA O VALOR A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;INSIRA O VALOR B&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A&gt;=B">
+                <then>
+                    <output expression="&quot;O VALOR A &#201; IGUAL OU MAIOR A B, LOGO, A DIFEREN&#199;A &#201;&quot; &amp;A-B" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O VALOR B &#201; MENOR AO A, LOGO, A DIFEREN&#199;A &#201;&quot; &amp;B-A" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<!-- ---------- 
+ 1- Para chamar meu CSS no HTML, devo usar <ahref="LINK">TÍTULO</a>
+
+---------- --> 
+
+<!-- ---------- TENTATIVA ---------- -->  
+<style>
+    img {
+        width: 12px; 
+        top: 10px; 
+        left: 10px; 
+    }
+
+
+
+
+
+
+
+    <style>

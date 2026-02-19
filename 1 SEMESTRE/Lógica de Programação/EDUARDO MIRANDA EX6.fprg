@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EDUARDO MIRANDA EX1"/>
+        <attribute name="authors" value="dsadm"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 10:02:37 "/>
+        <attribute name="created" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjA2OjQ5OjM3ICI7MjYyNg=="/>
+        <attribute name="edited" value="ZHNhZG07RVNONTAxRDEyNTM2NjhYOzIwMjUtMDItMjU7IjEwOjAyOjM3ICI7NzsyNzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, N4, NE, MD, MD2" type="Real" array="False" size=""/>
+            <output expression="&quot;INSIRA A N1&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;INSIRA A N2&quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;INSIRA A N3&quot;" newline="True"/>
+            <input variable="N3"/>
+            <output expression="&quot;INSIRA A N4&quot;" newline="True"/>
+            <input variable="N4"/>
+            <assign variable="MD" expression="(N1+N2+N3+N4)/4"/>
+            <if expression="MD&gt;=7">
+                <then>
+                    <output expression="&quot;APROVADO! SUA M&#201;DIA &#201;&quot;&amp;MD" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="MD2" expression="(N1+N2+N3+N4+MD)/5"/>
+                    <output expression="&quot;INSIRA A NE&quot;" newline="True"/>
+                    <input variable="NE"/>
+                    <if expression="MD2&gt;=5">
+                        <then>
+                            <output expression="&quot;APROVADO EM EXAME, SUA M&#201;DIA &#201;&quot;&amp;MD2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;REPROVADO, SUA M&#201;DIA &#201;&quot;&amp;MD2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
